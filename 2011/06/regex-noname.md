@@ -11,5 +11,4 @@ adc.test.com
 <strong style="color:blue">aaa.test.com</strong>    
 <strong style="color:blue">aabca.test.com</strong>      
 
-请多指教
 
