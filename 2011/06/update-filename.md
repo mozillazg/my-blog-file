@@ -64,7 +64,7 @@ def update_filename(file_path):
      
     file_basename = os.path.basename(file_path)
     # 移除旧的日期
-    file_basename = re.sub(r'(_\d{4}_\d{2}_\d{2}_\d{2}_\d{2})+$', '',
+    file_basename = re.sub(r'(_\d{4}_\d{2}_\d{2}_\d{2}_\d{2})+', '',
                                                 file_basename)
     m = re.match(r'(.*?)(\.\w+)$', 
                                 # 返回路径中的文件名 类似 'test.txt'
