@@ -37,3 +37,5 @@
     # 显示图片
     img.show()
 
+### 生成的图片
+![py-identifying-code-test-png](https://github.com/mozillazg/my-blog-file/tree/2011/06/test.png)
