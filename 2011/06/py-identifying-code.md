@@ -38,4 +38,4 @@
     img.show()
 
 ### 生成的图片
-![py-identifying-code-test-png](https://github.com/mozillazg/my-blog-file/tree/2011/06/test.png)
+![py-identifying-code-test-png](https://github.com/mozillazg/my-blog-file/raw/08bddbacc277aceb69d508a71f36136073c13048/2011/06/test.png)
