@@ -56,9 +56,9 @@
     
 ##参考
 
-* [Web.py Cookbook(File Upload)](#)
-* [Web.py Cookbook(Store an uploaded file)](#)
-* [pil-handbook(Reading and Writing Images)](#)
+* [Web.py Cookbook(File Upload)](http://webpy.org/cookbook/fileupload)
+* [Web.py Cookbook(Store an uploaded file)](http://webpy.org/cookbook/storeupload)
+* pil-handbook(Reading and Writing Images)
 
 
 

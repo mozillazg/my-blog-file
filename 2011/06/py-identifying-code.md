@@ -1,16 +1,18 @@
-## 简单的验证码程序【Python】
+## 生成简单的包含文字的图片(验证码)
 
 一个非常简单的验证码程序，只是生成一个包含文字的图片。
 
 用到了 [PIL(Python Imaging Library)](http://www.pythonware.com/products/pil/) 模块。
 
-### 注意，官方提供的 PIL 安装包在设置文字字体（TrueType 或 OpenType 字体）时会出现如下错误：
+### 注意
+官方提供的 PIL 安装包在设置文字字体（TrueType 或 OpenType 字体）时会出现如下错误：
 
 >ImportError: The _imagingft C module is not installed
 
-### 解决，Windows 用户可以到 <http://www.lfd.uci.edu/~gohlke/pythonlibs/> 下载第三方编译的 PIL 安装包，至于非 Windows 用户请参考： <http://stackoverflow.com/questions/4011705/python-the-imagingft-c-module-is-not-installed>
+### 解决
+Windows 用户可以到 <http://www.lfd.uci.edu/~gohlke/pythonlibs/> 下载第三方编译的 PIL 安装包，至于非 Windows 用户请参考： <http://stackoverflow.com/questions/4011705/python-the-imagingft-c-module-is-not-installed>
 
-代码如下：
+###代码如下：
 
     #!/usr/bin/env python
     # -*- coding: utf-8 -*-
@@ -18,8 +20,7 @@
     """生成简单的包含文字的图片
     """
 
-    import codecs
-    import random
+
     import Image
     import ImageDraw
     import ImageFont
