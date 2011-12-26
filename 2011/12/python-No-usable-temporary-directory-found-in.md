@@ -18,7 +18,7 @@
     tempfile.tempdir = tempdir
     # tempfile.tempdir = sae.core.get_tmp_dir() # SAE 平台的临时目录
 
-ps1.   sae.core.get_tmp_dir() 目录暂时不具有可写权限，会报错。
+ps1.   sae.core.get\_tmp\_dir() 目录暂时不具有可写权限，会报错。
 
 ps2. 未指定临时目录时， Python 会在以下列表中查找具有可写权限的目录：
 >Python查找一个标准目录列表, 将第一个用户有权限在其中创建文件的目录来设置tempdir . 这个列表是:
