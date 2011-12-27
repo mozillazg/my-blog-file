@@ -15,7 +15,7 @@
 手动指定程序所用的具有可写权限的临时目录        
 
     import tempfile
-    tempfile.tempdir = tempdir
+    tempfile.tempdir = 'tempdir'
     # tempfile.tempdir = sae.core.get_tmp_dir() # SAE 平台的临时目录
 
 ps1.   sae.core.get\_tmp\_dir() 目录暂时不具有可写权限，会报错。
