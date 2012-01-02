@@ -69,7 +69,7 @@
                           + 'Gecko/20100101 Firefox/9.0')
             if headers is None:
                 headers = {'User-Agent' : user_agent}
-            headers['referer'] = 'http://www.iciba.com/%s/' % urllib2.quote(word)
+            headers['Referer'] = 'http://www.iciba.com/%s/' % urllib2.quote(word)
             # 读取网页内容
             request = urllib2.Request(url=url, headers=headers)
             try:
@@ -101,11 +101,9 @@
                         output.write(file_data)
 
     def main():
-        import doctest
-        import audio
-        doctest.testmod(audio) # 基于文档字符串的测试
         while True:
             word = raw_input("> ").strip()
+            if not word: break
             save(get(word, lang='uk'), word, savedir='audio')
 
     if __name__ == '__main__':
