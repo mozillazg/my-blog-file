@@ -37,7 +37,27 @@ ps2. 未指定临时目录时， Python 会在以下列表中查找具有可写�
 
 >   1. 最后一个是当前工作目录.
 
+### 更新 sae.core.get\_tmp\_dir() 不能用的问题
+
+> 在index.wsgi最前面打上这个patch，可以临时绕过本地文件系统的tempfile
+
+> 但是需要注意上传文件过大的问题
+
+>     import os
+>      
+>     import tempfile
+>     import cStringIO
+>      
+>     def TemporaryFile(mode='w+b', bufsize=-1, suffix="",
+>                        prefix='', dir=None):
+>         return cStringIO.StringIO()
+>     tempfile.TemporaryFile = TemporaryFile
+>      
+>     import sae
+>     import sae.storage
+
 ##参考
 
 * http://pymotwcn.readthedocs.org/en/latest/documents/tempfile.html
+* http://tocode.sinaapp.com/32
 
