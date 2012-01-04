@@ -58,6 +58,7 @@ ps2. 未指定临时目录时， Python 会在以下列表中查找具有可写�
 
 ##参考
 
-* http://pymotwcn.readthedocs.org/en/latest/documents/tempfile.html
-* http://tocode.sinaapp.com/32
+* <http://pymotwcn.readthedocs.org/en/latest/documents/tempfile.html>
+* <http://www.douban.com/group/topic/26053959/>
+* <http://tocode.sinaapp.com/32>
 
