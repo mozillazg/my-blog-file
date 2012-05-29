@@ -37,8 +37,7 @@
       File "<stdin>", line 1, in <module>
       File "e:\Program Files\Python\lib\cPAMIE.py", line 64, in __init__
         self._ie = DispatchEx('InternetExplorer.Application')
-      File "e:\Program Files\Python\lib\site-packages\win32com\client\__init__.py", line 113, in Dispatc
-    hEx
+      File "e:\Program Files\Python\lib\site-packages\win32com\client\__init__.py", line 113, in DispatchEx
         dispatch = pythoncom.CoCreateInstanceEx(clsid, None, clsctx, serverInfo, (pythoncom.IID_IDispatc
     h,))[0]
     pywintypes.com_error: (-2147221005, 'Invalid class string', None, None)
@@ -81,18 +80,19 @@
     
 经实验，只要在先打开 IE 浏览器后再执行上面的代码就不会出错了。
 
+### 关于 javaScriptExecute() 函数
 
 还有就是我发现它的 api 文档中关于 javaScriptExecute() 函数的描述有误：
 
-> javaScriptExecute() Function
+> javaScriptExecute() Function      
 > Executes a java script function
 > 
->   Parameters:
->   javaScriptExecute (name)
+>   Parameters:     
+>   javaScriptExecute (name)        
 > 
->        name: The name of the javascript function
+>   name: The name of the javascript function       
 > 
->   Returns:
+>   Returns:        
 >   True on success, else False
 
 实际情况是 javaScriptExecute() 函数根本就没有返回值。需要修改源代码中的 javaScriptExecute() 函数，为其添加返回值：

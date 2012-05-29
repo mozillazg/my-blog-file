@@ -26,4 +26,4 @@ Python:
 
 ###参考：
 
- * <http://www.mengu.net/post/pagination-with-webpys>
+ * <http://www.mengu.net/post/pagination-with-webpy>

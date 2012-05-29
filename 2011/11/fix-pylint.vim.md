@@ -9,13 +9,12 @@
 
 将 69 行附近的
 
-    "CompilerSet makeprg=(echo\ '[%]';\ pylint\ -r\ y\ %)
+    CompilerSet makeprg=(echo\ '[%]';\ pylint\ -r\ y\ %)
 改为：
-
-    CompilerSet makeprg=pylint\ --reports=n\ --output-format=parseable\ %:p
+    CompilerSet makeprg=pylint\ --reports=n\ --output-format=parseable\ \"%:p\"
 75行附近的
 
-    "CompilerSet efm=%+P[%f],%t:\ %#%l:%m,%Z,%+IYour\ code%m,%Z,%-G%.%#
+    CompilerSet efm=%+P[%f],%t:\ %#%l:%m,%Z,%+IYour\ code%m,%Z,%-G%.%#
 改为：
 
     CompilerSet efm=%A%f:%l:\ [%t%.%#]\ %m,%Z%p^^,%-C%.%#
@@ -23,6 +22,9 @@
 更改后 `:Plint` 命令结果如下：
 
 ![after](https://github.com/mozillazg/my-blog-file/raw/master/2011/11/2011-11-05-09-37-2.jpg)
+
+### 2012-03-31 更新
+修正文件路径包含非英文字符及空格的情况
 
 ##参考
 

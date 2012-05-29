@@ -1,0 +1,27 @@
+Windows 7 sp1 休眠后再唤醒时，笔记本电脑USB 鼠标及键盘不能使用的解决办法
+
+开机后，进入设备管理器中，打开【通用串行总线控制器】子项，对黄色图标的 USB Root Hub 进行禁用再重启的操作即可
+
+电源选项中禁用 USB 选择性暂停
+
+
+Dell 笔记本电脑开机按F12，没有 USB 启动项
+
+拔掉电源，直接用电池供电即可
+
+使用 pathogen 安装 snipMate 导致 snipMate 无效
+
+只要插件含有如下结构：
+/bundle\*\snippets\*.snippets
+就会导致 snipMate 无效，将其他插件的*.snippets 文件删除即可
+
+
+<div style="clear:both;"></div> 从上一个 div 尾部换行，进入下一个 div ,
+
+图片垂直居中：
+<div style="width:600px; height:100px; line-height:100px; border:1px solid #000">
+<a href="#">哈哈</a>-<a href="#">哈哈</a><a href="#">-<img src="http://www.baidu.com/img/baidu_sylogo1.gif" alt=""  height="40" style="vertical-align:middle" /></a>
+
+http://ued.taobao.com/blog/2007/11/20/job_test_explanation/
+
+
