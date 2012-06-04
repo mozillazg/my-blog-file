@@ -14,7 +14,7 @@
 
 普通情况下，在安全模式下启动 Windows Installer 服务会出现如下错误：
 
-![windows installer service error](https://github.com/mozillazg/my-blog-file/raw/master/// "windows installer service error")
+![windows installer service error](https://github.com/mozillazg/my-blog-file/raw/master/2012/04/xxx.png "windows installer service error")
 
 通过修改注册表可以实现在安全模式下启动 windows installer 服务：
 
