@@ -2,7 +2,7 @@
 
 [上文](https://github.com/mozillazg/my-blog-file/blob/master/2012/04/Starting-services-in-safe-mode.markdown "Starting-services-in-safe-mode") 说了如何在安全模式下启动想要的服务。因为某些服务需要载入相关的驱动才能正常工作，所以本文说一下如何在安全模式下载入想要的驱动。
 
-还是举个例子：如何在安全模式下启动放歌（启动音频服务+载入音频驱动）。
+还是举个例子：如何在安全模式下放歌（启动音频服务+载入音频驱动）。
 
 系统环境：Windows 7 Ultimate 32-bit
 
