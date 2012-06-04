@@ -46,5 +46,5 @@
  * [Starting services in safe mode | Kris Davidson](http://www.krisdavidson.org/2010/09/11/starting-services-in-safe-mode/ "Starting services in safe mode | Kris Davidson")
 
 
-安全模式下载入其他驱动, safe mode, uninstall software, windows installer, windows registry, windows safe mode, oad drivers in safe mode, play music in safe mode, make the sound work in safe mode
+安全模式下载入其他驱动, safe mode, uninstall software, windows installer, windows registry, windows safe mode, oad drivers in safe mode, play music in safe mode, make the sound work in safe mode, enable audio in safe mode
 
