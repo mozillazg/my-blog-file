@@ -54,4 +54,7 @@
 
 有的服务需要相关驱动支持，比如说音频服务除了需要启动相关音频服务外还需要加载相关声卡驱动。又该如何操作呢？请听下回分解。
 
+## 参考
+
+ * [How To Uninstall Software In Windows Safe Mode](http://www.ghacks.net/2010/07/18/how-to-uninstall-software-in-windows-safe-mode/ "How To Uninstall Software In Windows Safe Mode")
 
