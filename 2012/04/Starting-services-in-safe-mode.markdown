@@ -58,3 +58,7 @@
 
  * [How To Uninstall Software In Windows Safe Mode](http://www.ghacks.net/2010/07/18/how-to-uninstall-software-in-windows-safe-mode/ "How To Uninstall Software In Windows Safe Mode")
 
+
+
+安全模式下启动其他服务, starting services in safe mode, safe mode, uninstall software, windows installer, windows registry, windows safe mode
+

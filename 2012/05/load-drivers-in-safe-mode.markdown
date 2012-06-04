@@ -45,3 +45,6 @@
  * [How To Uninstall Software In Windows Safe Mode](http://www.ghacks.net/2010/07/18/how-to-uninstall-software-in-windows-safe-mode/ "How To Uninstall Software In Windows Safe Mode")
  * [Starting services in safe mode | Kris Davidson](http://www.krisdavidson.org/2010/09/11/starting-services-in-safe-mode/ "Starting services in safe mode | Kris Davidson")
 
+
+安全模式下载入其他驱动, safe mode, uninstall software, windows installer, windows registry, windows safe mode, oad drivers in safe mode, play music in safe mode, make the sound work in safe mode
+
