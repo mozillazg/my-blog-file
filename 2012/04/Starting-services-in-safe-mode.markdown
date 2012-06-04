@@ -4,7 +4,11 @@
 
 默认情况下，安全模式只能启动一些基本的系统服务，其他的系统服务及软件服务根本就不能启动，会报如下类似错误：
 
+<<<<<<< HEAD
 ![service error](https://github.com/mozillazg/my-blog-file/raw/master/2012/04/2012-06-04_23-00-55.png "service error")
+=======
+![service error](https://github.com/mozillazg/my-blog-file/raw/master/// "service error")
+>>>>>>> ebb332e1abab7d8a72893c6b4a442855ba3bbbec
 
 下面将要介绍的方法可以解决这个问题。
 
@@ -14,7 +18,11 @@
 
 普通情况下，在安全模式下启动 Windows Installer 服务会出现如下错误：
 
+<<<<<<< HEAD
 ![windows installer service error](https://github.com/mozillazg/my-blog-file/raw/master/2012/04/xxx.png "windows installer service error")
+=======
+![windows installer service error](https://github.com/mozillazg/my-blog-file/raw/master/// "windows installer service error")
+>>>>>>> ebb332e1abab7d8a72893c6b4a442855ba3bbbec
 
 通过修改注册表可以实现在安全模式下启动 windows installer 服务：
 
@@ -44,7 +52,11 @@
 
 结果：
 
+<<<<<<< HEAD
  ![start windows installer service in safe mode](https://github.com/mozillazg/my-blog-file/raw/master/2012/04/2012-05-10_21-55-01.png "start windows installer service in safe mode")
+=======
+![start windows installer service in safe mode](https://github.com/mozillazg/my-blog-file/raw/master/2012/04/2012-05-10_21-55-01.png "start windows installer service in safe mode")
+>>>>>>> ebb332e1abab7d8a72893c6b4a442855ba3bbbec
 
 
 有的服务需要相关驱动支持，比如说音频服务除了需要启动相关音频服务外还需要加载相关声卡驱动。又该如何操作呢？请听下回分解。
