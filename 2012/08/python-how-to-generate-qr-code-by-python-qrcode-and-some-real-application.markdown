@@ -61,3 +61,8 @@ python-qrcode 是个用来生成二维码图片的第三方模块，依赖于 PI
 * <https://github.com/mozillazg/pyqr>
 
 
+## 参考
+
+ * [QR碼 - 维基百科，自由的百科全书](http://zh.wikipedia.org/wiki/QR碼 "QR碼 - 维基百科，自由的百科全书")
+ * [QR Code 官网](http://www.qrcode.com/en/index.html "")
+
