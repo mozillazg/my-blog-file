@@ -2,7 +2,7 @@
 
 ## 获取图片 MIME 类型
 
-<link>
+<https://github.com/mozillazg/image-mime>
 
 ### 使用
 
@@ -18,7 +18,7 @@
 
 ## 转换未知编码的字符串为 Unicode 字符串
 
-<link>
+<https://gist.github.com/3870483>
 
 ### 使用
 
