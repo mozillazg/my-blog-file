@@ -3,7 +3,7 @@
 ## 介绍
 通过解析 ping 命令执行结果，找出 ping 值最小的 ip/域名
 
-项目主页:     
+## 项目主页:
 <https://github.com/mozillazg/justping>
 
 ## 用法
