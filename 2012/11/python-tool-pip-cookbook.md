@@ -46,6 +46,8 @@ pip 是个 python 第三方模块管理工具，类似 [easy_install](http://pea
     Proceed (y/n)? y
       Successfully uninstalled simplejson
 
+更多功能请参考帮助文档。
+
 ## 参考
 
  * [pip 帮助文档](http://www.pip-installer.org/en/latest/ "pip doc")
