@@ -8,15 +8,20 @@ Python,9x9 乘法表
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# Author: mozillazg
-# Blog: http://mzgblog.appspot.com/
-
 for x in range(1, 10):
     a = []
     for y in range(1, x+1):
         a.append('%s x %s = %-2s  ' %(y, x, x*y))
     print ''.join(a)
 </pre>
+
+    #!/usr/bin/env python
+    # -*- coding: utf-8 -*-
+
+    for x in range(1, 10):
+        for y in range(1, x + 1):
+            print '%s * %s = %-2s' % (y, x, y * x),
+        print ''
 
 输出结果：
 <pre class="prettyprint">
