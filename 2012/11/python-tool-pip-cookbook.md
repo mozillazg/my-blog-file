@@ -14,7 +14,7 @@ pip 是个 python 第三方模块管理工具，类似 [easy_install](http://pea
 
 * 使用 `easy_install` 进行安装（不推荐，刚才试了一下发现使用此方法安装的 pip 版本比较老）：
 
-    easy_install pip
+        easy_install pip
 
 * 使用源码安装（推荐）：
 
@@ -45,6 +45,16 @@ pip 是个 python 第三方模块管理工具，类似 [easy_install](http://pea
       /home/me/env/lib/python2.7/site-packages/simplejson-2.2.1-py2.7.egg-info
     Proceed (y/n)? y
       Successfully uninstalled simplejson
+
+## 依赖文件：
+
+生成依赖文件：
+
+依赖文件格式：
+
+安装依赖文件中的模块：
+
+    pip install -r requirements.txt
 
 更多功能请参考帮助文档。
 
