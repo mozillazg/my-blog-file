@@ -12,7 +12,7 @@
 import math
 
 def convertBytes(bytes, lst=['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB']):
-    i = int(math.floor( # 舍弃小数点，取小
+    i = 0 if bytes == 0 else int(math.floor( # 舍弃小数点，取小
              math.log(bytes, 1024) # 求对数(对数：若 a**b = N 则 b 叫做以 a 为底 N 的对数)
             ))
     
